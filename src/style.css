@@ -1,0 +1,67 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar__container{
+    height: 10vh;
+    background: #f55a5a
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo{
+    background: transparent;
+    color: white;
+    height: 30px;
+}
+nav > h1{
+    font-size: 14.46px;
+    color: white;
+    font-weight: 500;
+}
+.dont{
+    padding: 60px 40px;
+}
+.card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    border: 1px solid #F5F5F5;
+    
+}
+.card__right{
+    display: grid;
+    margin: 10px 20px
+}
+.loco{
+    color: red;
+}
+.name__logo{
+    gap: 10px;
+}
+.japan{
+    font-weight: 400;
+    line-height: 12.39px;
+    color: #2B283A;
+    padding-right: 20px;
+}
+.google{
+    font-weight: 400;
+    line-height: 12.39px;
+    color: #918E9B;
+}
+.start{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.discription{
+    font-weight: 400;
+}
